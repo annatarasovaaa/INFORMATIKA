@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+for (int i=0; i<10;i++) 
+cout<<"Тарасова Анна\n";
+}
+
+
+
+#include <iostream>
+using std::cout;
+using std::endl; 
+int main() 
+{        
+int x =11, y;         
+for(int i=1; i < x; i++)         
+{
+y = i*i;         
+cout << i << " " << y << endl;
+}         
+system("pause"); return 0; 
+}
