@@ -8,16 +8,17 @@ cout<<"Тарасова Анна\n";
 
 
 
-#include <iostream>
-using std::cout;
-using std::endl; 
-int main() 
-{        
-int x =11, y;         
-for(int i=1; i < x; i++)         
-{
-y = i*i;         
-cout << i << " " << y << endl;
-}         
-system("pause"); return 0; 
+#include <cstdlib> 
+#include <iostream> 
+#define N 10 
+using namespace std; 
+int main(int argc, char *argv[]) 
+{ 
+for( int i = 0; i < N;i++)
+{  
+if(i % 2 != 0) 
+cout << "\t" << i << "\t" << i * i << endl; 
+} 
+system("PAUSE"); 
+return 0; 
 }
